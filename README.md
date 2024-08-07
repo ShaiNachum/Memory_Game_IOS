@@ -23,19 +23,18 @@
 
 ### Components:
   * LoginController: Handles user login and navigation to the game screen or records screen.
-    ![Simulator Screenshot - iPhone 15 Pro - 2024-08-07 at 20 58 41](https://github.com/user-attachments/assets/731fd0aa-55d4-43b9-91b4-5c7f09073955)
+  <img src="https://github.com/user-attachments/assets/731fd0aa-55d4-43b9-91b4-5c7f09073955" width="360" height="540">
 
   * GameController: Manages the game logic, including the timer, score, and card interactions.
   * GameManager: Contains the core game logic for handling card matches, score calculation, and game state.
-    ![Simulator Screenshot - iPhone 15 Pro - 2024-08-07 at 20 59 43](https://github.com/user-attachments/assets/4b9a2052-8128-4535-9c82-b0f6ec741d50)
+  <img src="https://github.com/user-attachments/assets/4b9a2052-8128-4535-9c82-b0f6ec741d50" width="360" height="540">
 
   * DataManager: Manages the data for the cards, including shuffling and distributing the cards for the game.
   * Card: Represents a single card in the game with its name, ID, and flipped state.
   * Game: Model class representing a single game with player name, attempts, time, and score.
   * RecordsController: Displays the list of game records stored in Firebase.
   * RecordsManager: Handles interactions with Firebase, including adding and fetching game records.
-    ![Simulator Screenshot - iPhone 15 Pro - 2024-08-07 at 21 00 21](https://github.com/user-attachments/assets/1bc6b82f-63ff-4f10-93c7-8d4514f669a1)
-
+    <img src="https://github.com/user-attachments/assets/1bc6b82f-63ff-4f10-93c7-8d4514f669a1" width="360" height="540">
 
 ### Libraries Used:
   * Firebase Database: For storing and retrieving game records.
